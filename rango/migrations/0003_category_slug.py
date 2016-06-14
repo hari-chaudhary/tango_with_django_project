@@ -2,7 +2,6 @@
 from __future__ import unicode_literals
 
 from django.db import models, migrations
-import datetime
 
 
 class Migration(migrations.Migration):
@@ -15,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='category',
             name='slug',
-            field=models.SlugField(default=datetime.date(2016, 6, 13)),
+            field=models.SlugField(default='Pythonpython'),
             preserve_default=False,
         ),
     ]
